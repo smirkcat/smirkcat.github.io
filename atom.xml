@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>秀才遇到猫</title>
+  <subtitle>人生几何对酒当歌</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="https://smirkcat.github.io/"/>
+  <updated>2017-03-20T07:58:34.000Z</updated>
+  <id>https://smirkcat.github.io/</id>
+  
+  <author>
+    <name>smirkcat</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>第一篇博客，hexo的安装</title>
+    <link href="https://smirkcat.github.io/2017/03/17/hello-world/"/>
+    <id>https://smirkcat.github.io/2017/03/17/hello-world/</id>
+    <published>2017-03-17T11:46:18.000Z</published>
+    <updated>2017-03-20T07:58:34.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>经过可能估计接近一天的时间选型入门，我采用hexo框架和next主题，原先准备采用jekyll的，发现有个hexo框架是基于node.js的，前者是需要红宝石语言的，我发现没有这基础，而且也从观上更偏向这个。<br>hexo默认自带主题是landscape，然后又在主题上花了一把时间，本来最终选定yilia，因为百度出来很多这个教程，然后在纠结这个文章阅读数pv uv vv怎么弄，以及大家用的多说发表评论，发现并没有集成。<br>然后在搜索这个相关方案，就突然发现next，也有官方网站，集成更好，所以马上转投他的怀抱，就是为了写文章，不想过多折腾，所以下面教程开始。</p>
+<h3 id="安装nodejs-安装-git"><a href="#安装nodejs-安装-git" class="headerlink" title="安装nodejs 安装 git"></a>安装nodejs 安装 git</h3><ul>
+<li>node官网下载地址<a href="https://nodejs.org/en/download/" target="_blank" rel="external">https://nodejs.org/en/download/</a></li>
+<li>git官网下载地址<a href="https://git-scm.com/downloads" target="_blank" rel="external">https://git-scm.com/downloads</a></li>
+</ul>
+<p><strong>注 这里我是在windows用户下进行的</strong></p>
+<p>软件安装细节就不在叙述了。一般默认安装即可，最多换下安装路径，安装node时一定选这安装npm，默认勾选了的。安装git时，一般也是默认安装，git是通过msys集成的</p>
+<p>windows 下打开cmd  在搜索框输入cmd 或者你要打开的目录上的地址栏输入cmd，也可以用poweshell 提示更智能</p>
+<p>node版本验证<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">$ node -v</div><div class="line">v6.10.0</div></pre></td></tr></table></figure></p>
+<p>npm 版本<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">$ npm -v</div><div class="line">3.10.10</div></pre></td></tr></table></figure></p>
+<p>git版本<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">$ git --version</div><div class="line">git version 2.11.0.windows.1</div></pre></td></tr></table></figure></p>
+<p>如果有上面提示表示安装成功，如果没有显示，一般是环境变量的问题，具体问题，具体解决。</p>
+<h3 id="安装hexo以及主题next"><a href="#安装hexo以及主题next" class="headerlink" title="安装hexo以及主题next"></a>安装hexo以及主题next</h3><ul>
+<li>hexo官网<a href="https://hexo.io/zh-cn/" target="_blank" rel="external">https://hexo.io/zh-cn/</a></li>
+<li>next主题官网教程<a href="http://theme-next.iissnan.com/getting-started.html#select-scheme" target="_blank" rel="external">http://theme-next.iissnan.com/getting-started.html#select-scheme</a></li>
+</ul>
+<blockquote>
+<p>1.安装hexo<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">$ npm install hexo-cli -g  <span class="comment"># 安装hexo命令行客户端，会自动安装 hexo</span></div><div class="line">$ npm install hexo-util -g <span class="comment"># 安装 hexo-util next主题需要用到</span></div></pre></td></tr></table></figure></p>
+<p>2.验证hexo<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div></pre></td><td class="code"><pre><div class="line">$ hexo -v</div><div class="line">hexo-cli: 1.0.2</div><div class="line">os: Windows_NT 10.0.14393 win32 x64</div><div class="line">http_parser: 2.7.0</div><div class="line">node: 6.10.0</div><div class="line">v8: 5.1.281.93</div><div class="line">uv: 1.9.1</div><div class="line">zlib: 1.2.8</div><div class="line">ares: 1.10.1-DEV</div><div class="line">icu: 58.2</div><div class="line">modules: 48</div><div class="line">openssl: 1.0.2k</div></pre></td></tr></table></figure></p>
+<p>3.博客的创建<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line">$ cd ~/myblog  # ~表示当前目录  你可以根据自己喜欢创建目录 ，然后cmd要定位到这个目录。</div><div class="line">$ hexo init # 初始化，会清空整个目录 慎重使用</div><div class="line">$ npm install 安装所需要的依赖</div><div class="line">$ hexo server # 可以简化为hexo s  有下面信息这表示启动ok </div><div class="line">INFO  Start processing</div><div class="line">INFO  Hexo is running at http://localhost:4000/. Press Ctrl+C to stop.</div></pre></td></tr></table></figure></p>
+</blockquote>
+<p>然后地址栏输入<a href="http://localhost:4000/" target="_blank" rel="external">http://localhost:4000/</a> 即可看到一个初始化页面</p>
+<blockquote>
+<p>4.主题的应用<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ git clone https://github.com/iissnan/hexo-theme-next themes/next</div></pre></td></tr></table></figure></p>
+</blockquote>
+<p>一个是根目录下的hexo的_config.yml文件，一个是根目录/themes/next 主题文件的_config.yml文件，请注意区分<br>这种以yml结尾的配置文件，是yaml格式的配置文件格式，相应的有toml,json,xml,ini等</p>
+<p>修改hexo的_config.yml文件 </p>
+<ul>
+<li>site部分下 language: zh-Hans 其他选项请自己更改</li>
+<li>Extensions部分下 theme: next 表示使用themes下的next主题 </li>
+</ul>
+<p>修改next主题文件的_config.yml文件</p>
+<ul>
+<li>Schemes部分请设置为scheme: Pisces 默认为scheme: Muse 不太好看，第三个好看</li>
+<li>其余教程请移步 <a href="http://theme-next.iissnan.com/getting-started.html" target="_blank" rel="external">http://theme-next.iissnan.com/getting-started.html</a></li>
+</ul>
+<p>然后 Ctrl+C 关闭先前的，然后重新运行 <code>hexo s</code><br>然后刷新页面 就能看见新主题页面<a href="https://smirkcat.github.io">这里我的</a></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;经过可能估计接近一天的时间选型入门，我采用hexo框架和next主题，原先准备采用jekyll的，发现有个hexo框架是基于node.js的，前者是需要红宝石语言的，我发现没有这基础，而且也从观上更偏向这个。&lt;br&gt;hexo默认自带主题是landscape，然后又在主题上花
+    
+    </summary>
+    
+      <category term="教程" scheme="https://smirkcat.github.io/categories/%E6%95%99%E7%A8%8B/"/>
+    
+      <category term="初级" scheme="https://smirkcat.github.io/categories/%E6%95%99%E7%A8%8B/%E5%88%9D%E7%BA%A7/"/>
+    
+    
+      <category term="教程" scheme="https://smirkcat.github.io/tags/%E6%95%99%E7%A8%8B/"/>
+    
+      <category term="hexo" scheme="https://smirkcat.github.io/tags/hexo/"/>
+    
+  </entry>
+  
+</feed>
