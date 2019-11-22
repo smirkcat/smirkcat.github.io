@@ -4,14 +4,47 @@
   
   <url>
     <loc>https://smirkcat.com/categories/</loc>
+    <lastmod>2019-11-22T11:12:45+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smirkcat.com/categories/hugo/</loc>
+    <lastmod>2019-11-22T11:12:45+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smirkcat.com/tags/hugo/</loc>
+    <lastmod>2019-11-22T11:12:45+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smirkcat.com/tags/hugo-theme-easybook/</loc>
+    <lastmod>2019-11-22T11:12:45+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smirkcat.com/post/</loc>
+    <lastmod>2019-11-22T11:12:45+08:00</lastmod>
   </url>
   
   <url>
     <loc>https://smirkcat.com/tags/</loc>
+    <lastmod>2019-11-22T11:12:45+08:00</lastmod>
   </url>
   
   <url>
     <loc>https://smirkcat.com/</loc>
+    <lastmod>2019-11-22T11:12:45+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smirkcat.com/post/helloworld/</loc>
+    <lastmod>2019-11-22T11:12:45+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://smirkcat.com/about/</loc>
+    <lastmod>2019-11-22T10:04:59+08:00</lastmod>
   </url>
   
 </urlset>
