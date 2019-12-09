@@ -6,9 +6,28 @@
     <description>Recent content in Tags on 神经猫的博客 | golang程序员</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
+    <lastBuildDate>Fri, 22 Nov 2019 11:12:45 +0800</lastBuildDate>
     
 	<atom:link href="https://blog.smirkcat.online/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>hugo</title>
+      <link>https://blog.smirkcat.online/tags/hugo/</link>
+      <pubDate>Fri, 22 Nov 2019 11:12:45 +0800</pubDate>
+      
+      <guid>https://blog.smirkcat.online/tags/hugo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>hugo-theme-easybook</title>
+      <link>https://blog.smirkcat.online/tags/hugo-theme-easybook/</link>
+      <pubDate>Fri, 22 Nov 2019 11:12:45 +0800</pubDate>
+      
+      <guid>https://blog.smirkcat.online/tags/hugo-theme-easybook/</guid>
+      <description></description>
+    </item>
     
   </channel>
 </rss>

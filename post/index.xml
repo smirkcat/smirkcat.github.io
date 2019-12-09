@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on 神经猫的博客 | golang程序员</title>
-    <link>https://smirkcat.online/post/</link>
+    <link>https://blog.smirkcat.online/post/</link>
     <description>Recent content in Posts on 神经猫的博客 | golang程序员</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <lastBuildDate>Fri, 22 Nov 2019 11:12:45 +0800</lastBuildDate>
     
-	<atom:link href="https://smirkcat.online/post/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://blog.smirkcat.online/post/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>第一篇博客</title>
-      <link>https://smirkcat.online/post/helloworld/</link>
+      <link>https://blog.smirkcat.online/post/helloworld/</link>
       <pubDate>Fri, 22 Nov 2019 11:12:45 +0800</pubDate>
       
-      <guid>https://smirkcat.online/post/helloworld/</guid>
+      <guid>https://blog.smirkcat.online/post/helloworld/</guid>
       <description> 博客搭建教程  网站框架主题   框架 hugo 主题 easybook   起步 到https://github.com/gohugoio/hugo/releases 下载指定二进制文件，解压到某个位置，添加目录进path变量，然后执行下面脚本
 hugo new site smirkcat # 新建hugo项目 cd smirkcat git clone https://github.com/Y4er/hugo-theme-easybook themes/easybook cp themes/easybook/exampleSite/config.toml config.toml #修改 hugo new post/helloworld.md # 第一篇博客 hugo server -D # 测试  打开http://localhost:1313/ 观看效果
  发布github  </description>
