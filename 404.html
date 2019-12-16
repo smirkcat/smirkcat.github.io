@@ -53,7 +53,7 @@
     <a class="site-title" href="https://blog.smirkcat.online/"></a>
     
     <nav class="site-nav">
-        <a class="page-link" href="/">主页</a><a class="page-link" href="/post/">分类&amp;标签</a><a class="page-link" href="/socials">朋友圈社交电商注册</a><a class="page-link" href="/about">关于</a>
+        <a class="page-link" href="/">主页</a><a class="page-link" href="/post/">分类&amp;标签</a><a class="page-link" href="/socials/">朋友圈社交电商注册</a><a class="page-link" href="/about/">关于</a>
     </nav>
 </div>
     </header>
@@ -160,18 +160,38 @@
 <script src="/js/figure.js"></script>
 
 
-<script type="application/javascript">
-var doNotTrack = false;
-if (!doNotTrack) {
-	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
-	ga('create', 'UA-XXXXXXXX-X', 'auto');
-	
-	ga('send', 'pageview');
-}
+
+
+
+<script id="baidu_analytics">
+    var _hmt = _hmt || [];
+    (function () {
+        if (window.location.hostname === 'localhost') return;
+        var hm = document.createElement("script"); hm.async = true;
+        hm.src = "https://hm.baidu.com/hm.js?92bcdebaca7fdba042dc1bd24da8b261";
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(hm, s);
+    })();
 </script>
-<script async src='https://www.google-analytics.com/analytics.js'></script>
 
 
+
+
+<script id="baidu_push">
+    (function () {
+        if (window.location.hostname === 'localhost') return;
+        var bp = document.createElement('script'); bp.async = true;
+        var curProtocol = window.location.protocol.split(':')[0];
+        if (curProtocol === 'https') {
+            bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+        }
+        else {
+            bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+        }
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(bp, s);
+    })();
+</script>
 
 
 
