@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>神经猫的博客 | golang程序员</title>
-    <link>https://blog.smirkcat.online/</link>
-    <description>Recent content on 神经猫的博客 | golang程序员</description>
+    <title>社交电商 on 神经猫的博客 | golang程序员</title>
+    <link>https://blog.smirkcat.online/tags/%E7%A4%BE%E4%BA%A4%E7%94%B5%E5%95%86/</link>
+    <description>Recent content in 社交电商 on 神经猫的博客 | golang程序员</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <lastBuildDate>Mon, 16 Dec 2019 16:11:39 +0800</lastBuildDate>
     
-	<atom:link href="https://blog.smirkcat.online/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://blog.smirkcat.online/tags/%E7%A4%BE%E4%BA%A4%E7%94%B5%E5%95%86/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -153,26 +153,6 @@
 进入里面就能看见价格和佣金
 里面都是很便宜的，自买省钱，分享赚钱，你买别人分享给你的链接，不如自己买自己的链接呢，还能赚取佣金。
 这就是社交电商的魅力</description>
-    </item>
-    
-    <item>
-      <title>第一篇博客</title>
-      <link>https://blog.smirkcat.online/post/helloworld/</link>
-      <pubDate>Fri, 22 Nov 2019 11:12:45 +0800</pubDate>
-      
-      <guid>https://blog.smirkcat.online/post/helloworld/</guid>
-      <description> 博客搭建教程  网站框架主题   框架 hugo 主题 easybook   起步 到https://github.com/gohugoio/hugo/releases 下载指定二进制文件，解压到某个位置，添加目录进path变量，然后执行下面脚本
-hugo new site smirkcat # 新建hugo项目 cd smirkcat git clone https://github.com/Y4er/hugo-theme-easybook themes/easybook cp themes/easybook/exampleSite/config.toml config.toml #修改 hugo new post/helloworld.md # 第一篇博客 hugo server -D # 测试  打开http://localhost:1313/ 观看效果
- 发布github  </description>
-    </item>
-    
-    <item>
-      <title>关于</title>
-      <link>https://blog.smirkcat.online/about/</link>
-      <pubDate>Fri, 22 Nov 2019 10:04:59 +0800</pubDate>
-      
-      <guid>https://blog.smirkcat.online/about/</guid>
-      <description> 平凡的人生  分享社交电商注册二维码 程序员的相关分享  </description>
     </item>
     
   </channel>

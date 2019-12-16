@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>旅划算 on 神经猫的博客 | golang程序员</title>
+    <link>https://blog.smirkcat.online/tags/%E6%97%85%E5%88%92%E7%AE%97/</link>
+    <description>Recent content in 旅划算 on 神经猫的博客 | golang程序员</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Mon, 16 Dec 2019 15:34:21 +0800</lastBuildDate>
+    
+	<atom:link href="https://blog.smirkcat.online/tags/%E6%97%85%E5%88%92%E7%AE%97/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>旅划算</title>
+      <link>https://blog.smirkcat.online/social/lvhuasuan/</link>
+      <pubDate>Mon, 16 Dec 2019 15:34:21 +0800</pubDate>
+      
+      <guid>https://blog.smirkcat.online/social/lvhuasuan/</guid>
+      <description>经常看见别人再分享旅划算的特价信息，要是自己也想分享给别人，怎么赚钱呢？
+很简单，注册为旅划算分享达人，只需要两步
+1. 扫描下面二维码 也可微信打开此链接 达人注册
+直接就注册成功，然后点击公众号关注公众号，推送的完善个人信息，填写手机号，验证码和真实姓名
+2. 切换其他城市 进入商城，右上角切换城市，关注对应的城市公众号
+进入商城里面就能看见价格和佣金
+里面都是很便宜的，自买省钱，分享赚钱，你买别人分享给你的链接，不如自己买自己的链接呢，还能赚取佣金。
+这就是社交电商的魅力</description>
+    </item>
+    
+  </channel>
+</rss>
